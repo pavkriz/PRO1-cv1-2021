@@ -18,7 +18,7 @@ public class MainMain {
             System.out.println(i);
         }
         int ar[] = { 1, 4, 8, 2, 8, 10 };
-        String needleNumber = JOptionPane.showInputDialog("Zadej cislo, ktere hledas");
+        String needleNumber = JOptionPane.showInputDialog("Zadej cislo, ktere hledas?");
         int needleInt = Integer.parseInt(needleNumber);
         for (int i = 0; i < ar.length; i++) {
             if (ar[i]==needleInt)
